@@ -1,0 +1,21 @@
+version: 1.0.{build}
+
+environment:
+  release_notes: initial
+  
+build_script:
+- cmd: set release_notes=build
+
+before_deploy:
+- cmd: set release_notes=before deploy
+
+artifacts:
+- path: readme.md
+
+test: off
+
+deploy:
+- provider: GitHub
+  description: $(release_notes)
+  auth_token:
+    secure: 9R8njSz9bLhTSr3pE0Sc0tqqX2X/Ln4dz/PbAyEItPMr0hkZ6MiGqBUxPBATQApR
