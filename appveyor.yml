@@ -18,4 +18,4 @@ deploy:
 - provider: GitHub
   description: $(release_notes)
   auth_token:
-    secure: 9R8njSz9bLhTSr3pE0Sc0tqqX2X/Ln4dz/PbAyEItPMr0hkZ6MiGqBUxPBATQApR
+    secure: SmG+Y+vEaSwXtM3myFqY6UeVTV4AUSN0hzh9aEsgEJSRKpt6P+JtMPzqhl0DKngS
