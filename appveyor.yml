@@ -22,4 +22,4 @@ deploy:
 - provider: GitHub
   description: $(release_notes)
   auth_token:
-    secure: SmG+Y+vEaSwXtM3myFqY6UeVTV4AUSN0hzh9aEsgEJSRKpt6P+JtMPzqhl0DKngS
+    secure: yAEZVaCdcSOpENGadaHzslwH6e2HANys6hZyoJHUucLvWc/9tn06YyunMVJzsXzL
